@@ -1,0 +1,15 @@
+:root {
+  --max-width: 1110px;
+  --fs-xl: 4.5em;
+  --fs-l: 3.75em;
+  --fs-m: 2.125em;
+  --fs-s: 1.5em;
+  --ff-prim: "Open Sans";
+  --ff-sec: "Neucha";
+  --filter-drop-shadow: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+  --dark: #2a2626;
+  --dark-50: #908d8b;
+  --brown: #b09a81;
+  --white: #fff;
+  --white-50: #d7ccc0;
+}
