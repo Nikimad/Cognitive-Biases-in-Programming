@@ -1,0 +1,16 @@
+@font-face {
+  font-weight: 400;
+  font-family: 'Open Sans';
+  src: url('/src/assets/fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf');
+}
+  
+@font-face {
+  font-weight: 700;
+  font-family: 'Open Sans';
+  src: url('/src/assets/fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf');
+}
+  
+@font-face {
+  font-family: 'Neucha';
+  src: url('/src/assets/fonts/Neucha/Neucha-Regular.ttf');
+}
