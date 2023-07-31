@@ -1,0 +1,52 @@
+.section {
+    padding-block: 100px;
+}
+
+.section .section__header {
+    margin-bottom: 100px;
+}
+
+.section .section__separator {
+    padding-inline: 10px;
+    margin-bottom: 20px;
+}
+
+.section .heading {
+    font-weight: 400;
+}
+
+.section__img {
+    filter: var(--filter-drop-shadow);
+}
+
+.section__separator {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.section:nth-child(odd).container {
+    background-color: #F5F4F0;
+}
+
+.section:nth-child(odd) .section__subheading {
+    color: var(--dark-50);
+}
+
+.section:nth-child(odd) .section__separator {
+    color: var(--white);
+    background-color: var(--brown);
+}
+
+.section:nth-child(even).container {
+    color: var(--white);
+    background-color: var(--brown);
+}
+
+.section:nth-child(even) .section__subheading {
+    color: var(--white-50);
+}
+
+.section:nth-child(even) .section__separator {
+    color: var(--brown);
+    background-color: var(--white);
+}
