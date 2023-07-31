@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.body {
+    color: var(--dark);
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.paragraph {
+    font-family: var(--ff-prim), sans-serif;
+    margin: 0;
+}
+
+.heading {
+    font-family: var(--ff-sec), sans-serif;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.fs_xl {
+    font-size: var(--fs-xl);
+}
+
+.fs_l {
+    font-size: var(--fs-l);
+}
+
+.fs_m {
+    font-size: var(--fs-m);
+}
+
+.fs_s {
+    font-size: var(--fs-s);
+}
+
+.m_0 {
+    margin: 0;
+}
+
+.cols {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 30px;
+}
