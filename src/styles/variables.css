@@ -1,9 +1,11 @@
 :root {
-  --max-width: 1110px;
+  --max-width: 1150px;
   --fs-xl: 4.5em;
   --fs-l: 3.75em;
   --fs-m: 2.125em;
   --fs-s: 1.5em;
+  --fs-xs: 1em;
+  --fs-xxs: 0.8em;
   --ff-prim: "Open Sans";
   --ff-sec: "Neucha";
   --filter-drop-shadow: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
@@ -12,4 +14,7 @@
   --brown: #b09a81;
   --white: #fff;
   --white-50: #d7ccc0;
+  --section-padding-l: 100px;
+  --section-padding-m: 50px;
+  --section-padding-s: 25px;
 }
